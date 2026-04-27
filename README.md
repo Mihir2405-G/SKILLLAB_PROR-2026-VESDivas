@@ -129,7 +129,7 @@ Our combination of real-time parking detection with an interactive digital exper
 ## 4.1 User Journey 
 
 
-**Response:**  
+ 
 
 A driver enters a parking area such as a mall or society and is guided by smart parking system. At the entrance, mobile app shows the real-time availability of parking slots. The user can quickly check which slots are free. As the driver moves forward, ultrasonic sensor continuously monitor each parking space. Once the driver reaches the selected slot the ultrasonic sensor detects the car and confirming the slot is reserved or occupied. After parking, the system logs the vehicle’s entry and keeps track of the occupied space. 
 
@@ -152,7 +152,7 @@ A usable smart parking system is one that is simple, reliable, and efficient for
 
 What is the smallest version of this project that still delivers the core experience?
 
-**Response:**  
+ 
 
 A minimum usable version of our smart parking system would consist of a small prototype with a limited number of parking slots, each equipped with ultrasonic sensors to detect whether a slot is occupied or free.
 
@@ -212,7 +212,7 @@ Physical structure
 The physical structure of the system includes the arrangement of hardware components in a functional layout. The sensors (IR and ultrasonic) are placed at the input side—IR at the gate and ultrasonic at the parking slot. The Raspberry Pi Pico is centrally positioned as the processing unit, connected to all sensors and output devices through wires and a breadboard. The servo motor is mechanically attached to the gate barrier, while the 7-segment display is positioned in a visible area to show information. An embedded system typically consists of a microcontroller, input devices, and output devices working together as a complete unit
 
 
-**Response:**  
+
 
 ## 6.3 Input / Output Map
 
@@ -273,9 +273,9 @@ Our early/rough sketch of project
 
 ## 8.2 Wiring Plan
 
-Describe the main electrical connections.
 
-**Response:**  
+
+
 The Raspberry Pi Pico 2 (RP2350) serves as the central controller of the system, managing all inputs and outputs through its GPIO pins. It is powered via a USB-C connection and operates at 3.3V logic levels. The microcontroller processes signals received from sensors and accordingly controls output devices like the display and servo motor, making it the core unit of the smart parking system.
 
 The 7-segment display (common cathode) is connected to GPIO pins GP4 through GP10, where each pin controls one of the segments (A to G). By selectively turning these segments on or off, the Pico displays numerical information such as available parking slots. Proper current-limiting resistors are required in series with each segment to prevent damage.
@@ -291,7 +291,7 @@ All components in the circuit share a common ground, which is essential for prop
 
 
 
-**Insert image below:**  
+ 
 
 <img width="867" height="1156"  src="images/circuit diagram.jpeg" />
 
@@ -320,9 +320,8 @@ All components in the circuit share a common ground, which is essential for prop
 ## 10.2 Software Logic
 
 
+ 
 
-**Response:**  
-`
 - **Startup behavior:**  
   On power-up, all pins are initialized. The servo PWM is set to 50 Hz, sensors are configured (IR as input, ultrasonic TRIG/ECHO), and 7-segment pins are set as outputs. The system then enters the main loop.
 - **Input handling:**  
@@ -343,7 +342,7 @@ No external communication is used. Only serial output via print() is used for de
 
 
 
-**Insert image below:**  
+ 
 <img width="1600" height="1200" alt="image" src="images/Flowchart.png" />
 
 
@@ -364,7 +363,7 @@ No external communication is used. Only serial output via print() is used for de
 
 ## 11.2 Material Justification
 
-Explain why you selected your main materials and components.
+
 
 **Response:**  
 `The Raspberry Pi Pico 2 is used as the main controller (brain) of the system. It reads signals from sensors, processes them, and controls output devices. It is preferred because it is small, fast, low-cost, and designed for real-time embedded systems. Unlike a full computer, it directly controls hardware through GPIO pins, making it ideal for automation projects like smart parking.`
@@ -400,7 +399,9 @@ Explain why you selected your main materials and components.
 
 If your cost is too high, what can be simplified, removed, substituted, or shared?
 
-**Response:**  
+**Response:** 
+
+NA
 
 ---
 
@@ -408,23 +409,28 @@ If your cost is too high, what can be simplified, removed, substituted, or share
 
 ## 12.1 Team Working Agreement
 
-Write how your team will work together.
 
-Include:
+
+
 
 How tasks are divided
+
 We divided the task by first knowing the strength of each team memeber and alloting the respective work along with their strength
 
 How decisions are made
+
 We collectviely discuss the new solution or feature and vote whether we can do it or not
 
 How progress will be checked
+
 We update the log book hourly or whenever we do a change or improve our project
 
 What happens if a task is delayed
+
 If the task is delayed firstly we sit together and find the issue and try to solve it, and increase the workload on that particular thing, for example if our hardware got delayed then 2 person start working on that part of the project
 
 How documentation will be maintained.
+
 Every time something changes,or we buy something or happens we update that on the designated section under the github repo and every couple of hours we upload the photo or our current progress
 
 
@@ -590,28 +596,32 @@ The biggest uncertainty in our smart parking project is the accuracy and reliabi
 
 ## 16.1 Fabrication Process
 
-Describe how the project was physically made.
 
-Include:
+
+
 Cutting
+
 We used a cardboard and cut it down as required for our project using the dimensions and scissors, and put a black chart paper on it 
 
 Assembly
+
 We assembled the whole circuit on the breadboard and mounted it on the carboard alongwith the neccessary sensors with the help of hot glue gun
 
 Wiring
+
 Connecected the microcontroller to the sensors and the servo motor with the help of jumper wires 
 
 Finishing
+
 Added some finishing touching to the board by marking desginated parking areas and road markings
 
 
 
 ## 16.2 Build Photos
 
-Add photos throughout the project.
 
-Suggested images:
+
+
 
 Early sketch
 
@@ -638,7 +648,7 @@ Final build
 
 ## 17.1 Final Description
 
-Describe the final version of your project.
+
 
 **Response:** 
 Our project is a smart parking system designed to make vehicle parking more efficient, automated, and user-friendly. It integrates sensors, microcontrollers, and software to detect available parking slots in real time and guide users accordingly. The system uses IR and ultrasonic sensors to monitor slot occupancy and vehicle presence, while a servo-controlled gate automates entry and exit. A simple interface or app display provides live parking availability, reducing the time spent searching for parking and minimizing congestion.
@@ -730,7 +740,7 @@ Before submission, confirm that:
 - [x] Purchase list is complete
 - [x] Budget summary is complete
 - [x] Mechanical planning is documented if applicable
-- [ ] App planning is documented if applicable
+- [x] App planning is documented if applicable
 - [x] Code flowchart is added
 - [x] Task breakdown is complete
 - [x] Weekly logs are updated
