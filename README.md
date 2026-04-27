@@ -515,6 +515,14 @@ Update 1
 
 <img src="images/project update 1a.jpeg" width="400"> <img src="images/project update 1b.jpeg" width="400">
 
+
+Update 2
+
+
+<p align="center">
+  <img src="images/project update 2.jpeg" width="400">
+</p>
+
 ---
 
 # 14. Risks and Unknowns
