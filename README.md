@@ -531,7 +531,11 @@ Update 3: Started with the App development
 
 <img src="images/project update 3.jpeg" width="400"> <img src="images/project update 3b.jpeg" width="400">
 
-Update 4: We completed with our final working build,
+Update 4: We completed with our final working build
+
+<p align="center">
+  <img src="images/final build.jpeg" width="600">
+</p>
 
 
 ---
