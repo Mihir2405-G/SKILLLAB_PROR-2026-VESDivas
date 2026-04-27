@@ -377,11 +377,15 @@ Suggested sequence:
 Explain why you selected your main materials and components.
 
 **Response:**  
-`The Raspberry Pi Pico 2 is used as the main controller (brain) of the system. It reads signals from sensors, processes them, and controls output devices. It is preferred because it is *small, fast, low-cost, and designed for real-time embedded systems. Unlike a full computer, it directly controls hardware through GPIO pins, making it ideal for automation projects like smart parking.
-The IR sensor is used for *vehicle detection at the entry gate. It works by emitting infrared light and detecting reflection when an object comes near. This allows the system to know when a car arrives 
-The ultrasonic sensor is used to measure distance and detect whether a parking slot is occupied or free. It sends ultrasonic waves and calculates distance based on the echo time 
-The 7-segment display is used for visual output, showing numbers like available slots or status. It is chosen because it is simple, low-cost, and easy to control using GPIO pins
-The servo motor is used to control the gate movement. It can rotate to specific angles (like 0° and 90°), making it perfect for opening and closing a barrier. It is designed for **precise position control `
+`The Raspberry Pi Pico 2 is used as the main controller (brain) of the system. It reads signals from sensors, processes them, and controls output devices. It is preferred because it is small, fast, low-cost, and designed for real-time embedded systems. Unlike a full computer, it directly controls hardware through GPIO pins, making it ideal for automation projects like smart parking.`
+
+`The IR sensor is used for *vehicle detection at the entry gate. It works by emitting infrared light and detecting reflection when an object comes near. This allows the system to know when a car arrives`
+
+`The ultrasonic sensor is used to measure distance and detect whether a parking slot is occupied or free. It sends ultrasonic waves and calculates distance based on the echo time` 
+
+`The 7-segment display is used for visual output, showing numbers like available slots or status. It is chosen because it is simple, low-cost, and easy to control using GPIO pins`
+
+`The servo motor is used to control the gate movement. It can rotate to specific angles (like 0° and 90°), making it perfect for opening and closing a barrier. It is designed for **precise position control `
 
 
 ## 11.3 Items You chose
@@ -396,12 +400,11 @@ The servo motor is used to control the gate movement. It can rotate to specific 
 
 | Budget Item           | Estimated Cost              |
 | --------------------- | ---------------------------:|
-| Electronics           | `[400]`                     |
-| Mechanical parts      | `[200]`                     |
-| Fabrication materials | `[0 (Available on campus)]` |
+| Electronics           | `[On campus]`                     |
+| Mechanical parts      | `[On campus]`                     |
+| Fabrication materials | `[On campus)]` |
 | Purchased extras      | `[0]`                       |
-| Contingency           | `[300]`                     |
-| **Total**             | `[900]`                     |
+| **Total**             | `[0]`                     |
 
 ## 11.5 Budget Reflection
 
