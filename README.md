@@ -82,11 +82,7 @@ By the final review, this README should clearly show:
 
 ## 1.5 Expanded Project Idea
 
-In 1–2 paragraphs, explain:
 
-- what your project is,
-- what kind of experience it creates,
-- what technologies are involved.
 
 **Response:**  
 `A smart, fully customizable parking system can transform urban mobility by making parking efficient, intelligent, and stress-free from the comfort of a user’s smartphone. In this system, drivers can access real-time information about available parking spaces, navigate directly to them, and manage bookings seamlessly. Instead of wasting time searching for spots, users interact with a digital platform that integrates sensors, IoT, and automation to detect occupancy and optimize space usage. This approach makes parking more organized, reduces traffic congestion and fuel consumption, and enhances overall convenience by combining smart technology, real-time data, and user-friendly design into a practical and efficient solution. We will be using ultasonic sensors to detect the car and available parking spot which will update the app`
@@ -110,7 +106,7 @@ an interactive object and a playful machine by using servo motor, ultrasonic, IR
 
 ## 3.1 References
 
-List what inspired the project.
+
 
 | Source Type | Title / Link                                                        | What Inspired You                                                                         |
 | ----------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -132,7 +128,7 @@ Our combination of real-time parking detection with an interactive digital exper
 
 ## 4.1 User Journey 
 
-Describe exactly how a user will use the project.Make it a story
+
 **Response:**  
 
 A driver enters a parking area such as a mall or society and is guided by smart parking system. At the entrance, mobile app shows the real-time availability of parking slots. The user can quickly check which slots are free. As the driver moves forward, ultrasonic sensor continuously monitor each parking space. Once the driver reaches the selected slot the ultrasonic sensor detects the car and confirming the slot is reserved or occupied. After parking, the system logs the vehicle’s entry and keeps track of the occupied space. 
@@ -201,9 +197,7 @@ Check all that apply.
 
 ## 6.2 High-Level System Description
 
-Explain how the system works in simple terms.
 
-Include:
 
 Input
 In this system, the input stage consists of sensors that collect data from the surrounding environment. The IR sensor detects the presence of a vehicle at the entry gate by sending a digital signal when an object is nearby. The ultrasonic sensor measures the distance of an object using sound waves and determines whether a parking slot is occupied or free. In general, input devices provide signals or data to the system for further processing . These inputs act as the initial trigger for the system’s operation.
@@ -249,13 +243,7 @@ Our early/rough sketch of project
 
 ## 7.2 Labeled Build Sketch
 
-Add a sketch with labels showing:
 
-- structure,
-- electronics placement,
-- user touch points,
-- moving parts,
-- output elements.
 
 **Insert image below:**  
 `[Upload image and link here]`
@@ -301,7 +289,7 @@ The IR sensor is connected to GPIO pin GP21 and provides a digital output signal
 All components in the circuit share a common ground, which is essential for proper signal referencing and stable operation. The sensors typically operate on 5V (VBUS), while the Pico logic uses 3.3V, ensuring efficient and coordinated functioning of the entire system.
 ## 8.3 Circuit Diagram
 
-Insert a hand-drawn or software-made circuit diagram.
+
 
 **Insert image below:**  
 
@@ -331,36 +319,25 @@ Insert a hand-drawn or software-made circuit diagram.
 
 ## 10.2 Software Logic
 
-Describe what the code must do.
 
-Include:
-
-- startup behavior,
-- input handling,
-- sensor reading,
-- decision logic,
-- output behavior,
-- communication logic,
-- reset behavior.
 
 **Response:**  
 `
-
 - **Startup behavior:**  
-  The ESP32 initializes motor pins, PWM control, and starts a WiFi access point with a web server. The laptop initializes camera input, tracking system, and projection mapping.
+  On power-up, all pins are initialized. The servo PWM is set to 50 Hz, sensors are configured (IR as input, ultrasonic TRIG/ECHO), and 7-segment pins are set as outputs. The system then enters the main loop.
 - **Input handling:**  
-  Movement commands are received from the laptop (pygame sends http requests)
+  The system takes input from the IR sensor (digital HIGH/LOW) and the ultrasonic sensor (triggered pulse with echo response).
 - **Sensor reading:**  
-  The camera continuously captures frames, and OpenCV detects ArUco markers to determine the car’s position and orientation.
+  Distance is measured using the ultrasonic sensor by calculating echo time. The IR sensor directly provides object detection status using ir.value().
 - **Decision logic:**  
-  The system maps the car’s position into a virtual coordinate system and checks for nearby obstacles or collisions. If movement is valid, the command is allowed; if not, it is blocked or replaced with a feedback action (like a slight shake).
+ If distance < 10 cm, the display turns ON (shows “1”). If the IR sensor detects an object, the servo opens; otherwise, it stays closed.
 - **Output behavior:**  
-  The ESP32 drives the motors using PWM signals to control speed and direction. The projector displays the updated game environment, including obstacles, targets, and feedback visuals.
+  The 7-segment displays “1” when an object is near. The servo rotates to 90° (open) on detection and returns to 0° (closed) otherwise.
 - **Communication logic:**  
-  The laptop sends HTTP requests (e.g., `/forward`, `/left`) to the ESP32 over WiFi. The ESP32 parses these commands and executes motor actions.
+No external communication is used. Only serial output via print() is used for debugging.
 - **Reset behavior:**  
-  If no command is received within a short timeout, the ESP32 stops the motors. The game resets when a level is completed or restarted.`
-
+  On reset, the system reinitializes all components and restarts the loop, returning outputs to default before responding again.
+  
 ## 10.3 Code Flowchart
 
 Insert a flowchart showing your code logic.
@@ -390,26 +367,30 @@ Suggested sequence:
 | Item                             | Quantity | In Kit? | Need to Buy? | Estimated Cost | Material / Spec               | Why This Choice?          |
 | -------------------------------- | --------:| ------- | ------------ | --------------:| ----------------------------- | ------------------------- |
 | `[Raspberry Pi Pico 2]`          | `[1]`    | `[Yes]` | `[No]`       | `0`            | `RP2350 Microcontroller`      | `[To control components]` |
-| `[Ultrasonic sensors]`           | `[3]`    | `[Yes]` | `[No]`       | `0`            | `[LN296]`                     | `[To drive both motors]`  |
-| `[DC Motors and wheel]`          | `[2]`    | `[No]`  | `[Yes]`      | `[150]`        | `[BO Motors and 6 cm wheels]` | `[high torque motors]`    |
-| `[Buck Converter]`               | `[1]`    | `[No]`  | `[Yes]`      | `[75]`         |                               |                           |
-| `[Li-ion batteries with holder]` | `[1]`    | `[No]`  | `[Yes]`      | `[200]`        |                               |                           |
+| `[Ultrasonic sensors]`           | `[3]`    | `[Yes]` | `[No]`       | `0`            | `[]`                     | `[To detect car is at the parking space or not]`  |
+| `[Servo Motor]`                  | `[1]`    | `[Yes]`  | `[No]`      | `[0]`          | `[]`                          | `[Need to move the gate barrier]`    |
+| `[7 segment displace]`           | `[1]`    | `[Yes]`  | `[No]`      | `[0]`         |                               |  `[To display how many slots are remaining]`                         |
+| `[IR Sensors]`                   | `[1]`    | `[Yes]`  | `[No]`      | `[0]`         |                               |  `[Need to send signal to Servo Motor]`                         |
 
 ## 11.2 Material Justification
 
 Explain why you selected your main materials and components.
 
 **Response:**  
-`DC motors (BO motors) were chosen instead of servos or steppers because the system requires continuous rotation for movement rather than precise angular control (Previously, we were considering using steppers as we were planning on tracking movement on the ESP using its relative position from an origin, but since we're using a camera now, this is not required). A motor driver (L298N) was used to allow bidirectional control and speed variation using PWM.`
+`The Raspberry Pi Pico 2 is used as the main controller (brain) of the system. It reads signals from sensors, processes them, and controls output devices. It is preferred because it is *small, fast, low-cost, and designed for real-time embedded systems. Unlike a full computer, it directly controls hardware through GPIO pins, making it ideal for automation projects like smart parking.
+The IR sensor is used for *vehicle detection at the entry gate. It works by emitting infrared light and detecting reflection when an object comes near. This allows the system to know when a car arrives 
+The ultrasonic sensor is used to measure distance and detect whether a parking slot is occupied or free. It sends ultrasonic waves and calculates distance based on the echo time 
+The 7-segment display is used for visual output, showing numbers like available slots or status. It is chosen because it is simple, low-cost, and easy to control using GPIO pins
+The servo motor is used to control the gate movement. It can rotate to specific angles (like 0° and 90°), making it perfect for opening and closing a barrier. It is designed for **precise position control `
 
 
 ## 11.3 Items You chose
 
-| Item                 | Why Needed               | Purchase Link | Latest Safe Date to Procure | Status       |
-| -------------------- | ------------------------ | ------------- | --------------------------- | ------------ |
-| `BO Motors + Wheels` | `Drive system for car`   | `robu.in`     | `15th April`                | `[Received]` |
-| `Buck Converter`     | `Stable power for ESP32` | `local store` | `before testing`            | `[Received]` |
-| `Li-ion Batteries`   | `Portable power`         | `local store` | `before testing`            | `Recieved`   |
+| Item                 | Why Needed               | 
+| -------------------- | ------------------------ | 
+| `IR Sensor` | `To check whether car is at the gate`   |
+| `Ultrasonic Sensor`     | `check whether the car is at parking lot` |
+| `Servo Motor`   | `To Move the gate`  |     
 
 ## 11.4 Budget Summary
 
