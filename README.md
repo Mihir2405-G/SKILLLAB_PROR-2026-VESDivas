@@ -57,14 +57,16 @@ By the final review, this README should clearly show:
 
 ## 1.1 Studio / Group Name
 
-`Project^2`
+`VESDivas`
 
 ## 1.2 Team Members
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| `Gopalakrishnan` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `KAder Shaikh`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Narendra Bhujbal` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
+| `Anuj Gujar`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Mihir Gupta`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Vedant Jathar`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
 
 ## 1.3 Project Title
 
