@@ -325,10 +325,9 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Tool / Platform                | Purpose                                        |
 | ------------------------------ | ---------------------------------------------- |
-| `[MicroPython]`                | `Control ESP32`                                |
-| `[Python/PyGame/OpenCV]`       | `Track markers, game logic, create projection` |
-| `[Fusion/Blender/Illustrator]` | `[Prototyping structure]`                      |
-|                                |                                                |
+| `[MicroPython]`                | `Control Pico 2`                               |
+| `[HTML/CSS/Javascript]`        | `Creating app for the project`                 |
+
 
 ## 10.2 Software Logic
 
