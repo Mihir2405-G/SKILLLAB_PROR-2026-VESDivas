@@ -340,22 +340,12 @@ No external communication is used. Only serial output via print() is used for de
   
 ## 10.3 Code Flowchart
 
-Insert a flowchart showing your code logic.
 
-Suggested sequence:
 
-- start,
-- initialize,
-- wait for input,
-- read input,
-- decision,
-- trigger output,
-- repeat or reset,
-- error handling.
 
 **Insert image below:**  
-<img width="1600" height="1200" alt="image" src="" />
-<img width="1600" height="1200" alt="image" src="" />
+<img width="1600" height="1200" alt="image" src="images/Flowchart.png" />
+
 
 
 
