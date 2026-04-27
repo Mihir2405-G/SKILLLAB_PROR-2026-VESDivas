@@ -222,11 +222,12 @@ The physical structure of the system includes the arrangement of hardware compon
 
 ## 6.3 Input / Output Map
 
-| System Part                              | Type            | What It Does 
-| IR Sensor                                | Input           | It checks if the car is in front of the gate
-| Ultrasonic Sensor                        | Input           | Checks if the car is at the parking slot or not
-| Servo Motor                              | Output          | Helps to move the gate barrier 
-| 7-Segment Display                        | Output          | Shows the number of slots available
+| System Part         | Type   | What It Does                                      |
+|--------------------|--------|---------------------------------------------------|
+| IR Sensor          | Input  | Detects if a car is present at the gate           |
+| Ultrasonic Sensor  | Input  | Checks whether a parking slot is occupied or free |
+| Servo Motor        | Output | Controls the opening and closing of the gate      |
+| 7-Segment Display  | Output | Displays the number of available parking slots    |
 
 
 ---
