@@ -544,10 +544,10 @@ Update 2: Connection Complete and uploaded the code on microcontroller
 </p>
 
 Update 3: Started with the App development
+          Had to change our original servo motor as it got short circuited and the gate was not working
 
-<p align="center">
-  <img src="images/project update 3.jpeg" width="600">
-</p>
+<img src="images/project update 3.jpeg" width="400"> <img src="images/project update 3b.jpeg" width="400">
+
 
 ---
 
