@@ -460,9 +460,9 @@ Expected outcomes:
 - [x] Idea finalized
 - [x] Core interaction decided
 - [x] Sketches made
-- [ ] BOM completed
+- [x] BOM completed
 - [x] Purchase needs identified
-- [ ] Key uncertainty identified
+- [x] Key uncertainty identified
 - [x] Basic feasibility tested
 
 ### Bi Hour 2 — Build Subsystems
@@ -470,7 +470,7 @@ Expected outcomes:
 Expected outcomes:
 
 - [x] Electronics tests completed
-- [ ] CAD / structure planning completed
+- [x] CAD / structure planning completed
 - [x] App UI started if needed
 - [x] Mechanical concept tested
 - [x] Main subsystems partially working
@@ -483,7 +483,7 @@ Expected outcomes:
 - [x] Electronics integrated
 - [x] Code connected to hardware
 - [ ] App connected if required
-- [ ] First playable version exists
+- [x] First playable version exists
 
 ### Bi Hour 4 — Refine and Finish
 
@@ -531,7 +531,8 @@ Update 3: Started with the App development
 
 | Risk                                                            | Type         | Likelihood | Impact   | Mitigation Plan                                                                       | Owner                |
 | --------------------------------------------------------------- | ------------ | ---------- | -------- | ------------------------------------------------------------------------------------- | -------------------- |
-| WiFi connection between laptop and ESP32 becomes unstable       | `Technical`  | `Medium`   | `High`   | Keep ESP32 close, ensure stable power supply, reduce network load, add fail-safe stop | `[Gopal]`           |
+| Servo Motor not responding      | `Technical`  | `Medium`   | `High`   | avoid shorting of servo motor and avoid having loose connections| `[Narendra]`           |
+| Ultrasonic Sensor not updating 7 Segment display| `Technical` | `Medium` | `High`   | Code updated accordingly to update the 7 segment and fix the connection of ultrasonic |
 
 
 ## 14.2 Biggest Unknown Right Now
