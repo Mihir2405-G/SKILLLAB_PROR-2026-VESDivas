@@ -205,17 +205,28 @@ Explain how the system works in simple terms.
 
 Include:
 
-- input,
-- processing,
-- output,
-- physical structure,
-- app interaction if any.
+Input
+In this system, the input stage consists of sensors that collect data from the surrounding environment. The IR sensor detects the presence of a vehicle at the entry gate by sending a digital signal when an object is nearby. The ultrasonic sensor measures the distance of an object using sound waves and determines whether a parking slot is occupied or free. In general, input devices provide signals or data to the system for further processing . These inputs act as the initial trigger for the system’s operation.
+
+Processing
+The processing stage is handled by the Raspberry Pi Pico microcontroller, which acts as the brain of the system. It reads input signals from the sensors through GPIO pins and executes programmed logic using conditional statements. For example, it checks whether the IR sensor detects a vehicle and whether the ultrasonic sensor measures a distance less than a specific threshold. Based on these inputs, the controller performs computations and decision-making. In embedded systems, the processor receives inputs, processes them, and determines appropriate actions in real time
+
+Output
+The output stage consists of devices that respond to the processed data. The servo motor acts as a mechanical output device, opening or closing the parking gate based on the IR sensor input. The 7-segment display acts as a visual output device, showing numerical information such as slot status. Outputs are the signals or actions produced by the system after processing the input data . These outputs directly interact with the physical environment and provide feedback to the user.
+
+Physical structure
+The physical structure of the system includes the arrangement of hardware components in a functional layout. The sensors (IR and ultrasonic) are placed at the input side—IR at the gate and ultrasonic at the parking slot. The Raspberry Pi Pico is centrally positioned as the processing unit, connected to all sensors and output devices through wires and a breadboard. The servo motor is mechanically attached to the gate barrier, while the 7-segment display is positioned in a visible area to show information. An embedded system typically consists of a microcontroller, input devices, and output devices working together as a complete unit
+
 
 **Response:**  
 
 ## 6.3 Input / Output Map
 
-| System Part                              | Type            | What It Does                                                               |
+| System Part                              | Type            | What It Does 
+| IR Sensor                                | Input           | It checks if the car is in front of the gate
+| Ultrasonic Sensor                        | Input           | Checks if the car is at the parking slot or not
+| Servo Motor                              | Output          | Helps to move the gate barrier 
+| 7-Segment Display                        | Output          | Shows the number of slots available
 
 
 ---
