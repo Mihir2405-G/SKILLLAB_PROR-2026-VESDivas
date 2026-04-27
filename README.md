@@ -221,10 +221,12 @@ Include:
 
 ## 7.1 Concept Sketch
 
-Add an early sketch of the full idea.
+Our early/rough sketch of project
 
 **Insert image below:**  
-`[Upload image and link here]`
+<p align="center">
+  <img src="images/concept sketch.jpeg" width="500">
+</p>
 
 Example:
 
