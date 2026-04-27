@@ -532,7 +532,7 @@ Update 3: Started with the App development
 | Risk                                                            | Type         | Likelihood | Impact   | Mitigation Plan                                                                       | Owner                |
 | --------------------------------------------------------------- | ------------ | ---------- | -------- | ------------------------------------------------------------------------------------- | -------------------- |
 | Servo Motor not responding      | `Technical`  | `Medium`   | `High`   | avoid shorting of servo motor and avoid having loose connections| `[Narendra]`           |
-| Ultrasonic Sensor not updating 7 Segment display| `Technical` | `Medium` | `High`   | Code updated accordingly to update the 7 segment and fix the connection of ultrasonic |
+| Ultrasonic Sensor not updating 7 Segment display| `Technical` | `Medium` | `High`   | Code updated accordingly to update the 7 segment and fix the connection of ultrasonic | `Narendra`   |
 
 
 ## 14.2 Biggest Unknown Right Now
@@ -540,7 +540,7 @@ Update 3: Started with the App development
 What is the single biggest uncertainty in your project at this stage?
 
 **Response:**  
-
+The biggest uncertainty in our smart parking project is the accuracy and reliability of real-time parking space detection, as the system depends on sensors and network connectivity that can be affected by environmental conditions like rain, dust, or lighting, as well as potential hardware errors and data delays, which may lead to incorrect availability information and reduce user trust in the system.
 
 ---
 
@@ -550,7 +550,7 @@ What is the single biggest uncertainty in your project at this stage?
 
 | What Needs Testing     | How You Will Test It                                                                 | Success Condition                                                                                    |
 | ---------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| `[Wifi connection]`    | `[Check if motor spins via app button]`                                              | `[Both motors accurately respond to wifi signals]`                                                   |
+| `[Gate Movement]`    | `[Check if the gate moves when the car approaches the gate]`                                              | `[IR sensor detects the car and sends signal to servo motor to move the gate]`                                                   |
                        |
 ## 15.2 Testing and Debugging Log
 
