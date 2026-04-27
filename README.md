@@ -66,7 +66,7 @@ By the final review, this README should clearly show:
 | `Narendra Bhujbal` | `[Electronics]`             | `[Coding / App]`| `Material Handeling, Software `|
 | `Anuj Gujar`   | `[App]`                         | `[Electronics/Fabrication]`| `App Dev, Hardware`    |
 | `Mihir Gupta`  | `[Documentation]`               | `[App]`         | `Documenting, App Dev`    |
-| `Vedant Jathar`| `[Electronics/Fabrication]`     | `[Documentation]`| `Material Handling, Hardware`    |
+| `Vedant Jathar`| `[Fabrication]`                 | `[Documentation]`| `Material Handling`    |
 
 <img src="images/groupphoto.jpeg" width="400">
 
@@ -183,7 +183,7 @@ Check all that apply.
 
 - [x] Screen/UI-based
 
-- [ ] Fabricated structure
+- [x] Fabricated structure
 
 - [ ] Game logic based
 
@@ -223,11 +223,7 @@ Our early/rough sketch of project
   <img src="images/concept sketch.jpeg" width="500">
 </p>
 
-Example:
 
-```md
-
-```
 
 
 
@@ -433,8 +429,8 @@ Include:
 | ------- | ----------------------- | -------- | ---------------:| ------------ | ---------- | ------ |
 | T1      | `[Finalize concept]`    | `[All]`  | `1hr`           | `27th April` | `None`     | `Done` |
 | T2      | `[Connections]`         | `[Narendra]` | `2hr`       | `27th April` | `None`     | `Working` |
-| T3      | `[Fabrication]`         | `[Vedant]` | `2hr`         | `27th April` | `None`     | `Working` |
-| T4      | `[Documentation]`       | `[Mihir]` | `hr`           | `27th April` | `None`     | `Working` |
+| T3      | `[Fabrication]`         | `[Vedant]` | `2hr`         | `27th April` | `None`     | `Done` |
+| T4      | `[Documentation]`       | `[Mihir]` | `6hr`          | `27th April` | `None`     | `Working` |
 | T5      | `[App Development]`     | `[Anuj]`  | `1hr`          | `27th April` | `None`     | `Working` |
 
 
@@ -446,12 +442,12 @@ Include:
 
 | Area                 | Main Owner | Support Owner |
 | -------------------- | ---------- | ------------- |
-| Concept              | `[Anuj]`   | `[Kader]`     |
-| Electronics          | `[Narendra]`| `[]`         |
+| Concept              | `[Anuj]`   | `[]`          |
+| Electronics          | `[Narendra]`| `[Vedant]`   |
 | Coding               | `[Anuj]`    | `[Mihir]`    |
-| Mechanical build     | `[Vedant]`  | `[]`    |
-| Testing              | `[]`       | `[]`    |
-| Documentation        | `[]`       | `[]`     |
+| Mechanical build     | `[Vedant]`  | `[]`         |
+| Testing              | `[Narendra]`| `[]`         |
+| Documentation        | `[Mihir]`   | `[Anuj]`     |
 
 ---
 
@@ -510,17 +506,23 @@ Expected outcomes:
 | Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 
-Update 1
+Update 1: Basic Connection started with fabrication
 
 
 <img src="images/project update 1a.jpeg" width="400"> <img src="images/project update 1b.jpeg" width="400">
 
 
-Update 2
+Update 2: Connection Complete and uploaded the code on microcontroller
 
 
 <p align="center">
-  <img src="images/project update 2.jpeg" width="400">
+  <img src="images/project update 2.jpeg" width="600">
+</p>
+
+Update 3: Started with the App development
+
+<p align="center">
+  <img src="images/project update 3.jpeg" width="600">
 </p>
 
 ---
