@@ -300,10 +300,10 @@ Insert a hand-drawn or software-made circuit diagram.
 
 | Question         | Response                                                                                                                                          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Power source     | `Battery (Li-ion pack)`                                                                                                                           |
-| Voltage required | `~6–8.4V for motors (via driver), stepped down to 5V for ESP32 (buck converter)`                                                                  |
-| Current concerns | `Motors can draw high current under load, which may cause voltage drops affecting ESP32 and WiFi stability`                                       |
-| Safety concerns  | `Avoid over-discharging Li-ion batteries, ensure proper voltage regulation, prevent short circuits, and secure wiring to avoid loose connections` |
+| Power source     | `5V 2A USB Adapter`                                                                                                                           |
+| Voltage required | `4.8-6V for Servo Motor, 3.3V GPIO for 7- Segment`                                                                  |
+| Current concerns | `Servo Motor draws current suddenly, Ultrasonic needs 5V Pico generates 3.3V`                                       |
+| Safety concerns  | `Prevent short circuits, and secure wiring to avoid loose connections` |
 
 ---
 
