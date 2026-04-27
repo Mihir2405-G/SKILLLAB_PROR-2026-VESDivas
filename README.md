@@ -63,10 +63,10 @@ By the final review, this README should clearly show:
 
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
-| `Narendra Bhujbal` | `[Electronics / Coding / App ]` | `Documentation`  | `Documentation, Gift of Gab `|
-| `Anuj Gujar`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-| `Mihir Gupta`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
-| `Vedant Jathar`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
+| `Narendra Bhujbal` | `[Electronics]`             | `[Coding / App]`| `Material Handeling, Software `|
+| `Anuj Gujar`   | `[App]`                         | `[Electronics]]`| `App Dev, Hardware`    |
+| `Mihir Gupta`  | `[Documentation]`               | `[App]`         | `Documenting, App Dev`    |
+| `Vedant Jathar`| `[Electronics]`                 | `[Documentation]`| `Material Handling, Hardware`    |
 
 <img src="images/groupphoto.jpeg" width="400">
 
