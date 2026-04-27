@@ -625,14 +625,19 @@ Final build
 
 Describe the final version of your project.
 
-**Response:**  
+**Response:** 
+Our project is a smart parking system designed to make vehicle parking more efficient, automated, and user-friendly. It integrates sensors, microcontrollers, and software to detect available parking slots in real time and guide users accordingly. The system uses IR and ultrasonic sensors to monitor slot occupancy and vehicle presence, while a servo-controlled gate automates entry and exit. A simple interface or app display provides live parking availability, reducing the time spent searching for parking and minimizing congestion.
+
+The final build demonstrates a working prototype where vehicles are detected at the entrance, verified, and then allowed access based on slot availability. The system updates slot status dynamically and ensures smooth operation through coordinated interaction between hardware and software components. Overall, the project successfully combines electronics, coding, and mechanical design to deliver a practical solution for modern parking challenges, improving convenience, efficiency, and traffic management.
 
 
 ## 17.2 What Works Well
+The servo-controlled gate movement and the ultrasonic parking slots works well in our project
 
 
 
 ## 17.3 What Still Needs Improvement
+The servo motor could be me improve by increasing the range of detection of IR Sensor, as it is still an issue in our project
 
 
 ## 17.4 What Changed From the Original Plan
@@ -640,7 +645,7 @@ Describe the final version of your project.
 How did the project change from the initial idea?
 
 **Response:**  
-
+Addition of Servo-controlled gate was added later on in this project at first it was only based in ultrasonic sensors at parking lot
 
 ---
 
@@ -653,42 +658,48 @@ What slowed you down?
 How well did you manage time, tasks, and responsibilities?
 
 **Response:**  
+Our team worked well in collaborating and dividing tasks effectively based on individual strengths. We maintained good communication throughout the project, which helped in integrating hardware and software smoothly. The coordination between coding, circuit design, and mechanical setup was handled efficiently, allowing us to successfully build a working prototype.
 
+We were slowed down mainly by sensor inaccuracies and calibration issues, especially with the IR sensor, which affected detection reliability. Hardware limitations, debugging errors, and time spent troubleshooting connections and code also delayed our progress at certain stages.
+
+We managed our time, tasks, and responsibilities by distributing work among team members and setting small goals for each phase of the project. While we followed a basic plan, some delays in testing and debugging affected our timeline. However, teamwork and consistent effort helped us complete the project and achieve the desired outcome.
 
 ## 18.2 Technical Reflection
 
-What did you learn about:
+**Response:**
 
-- electronics,
-- coding,
-- mechanisms,
-- fabrication,
-- integration?
+Electronics:
+We learned how to work with sensors like ultrasonic and IR for detection, how to interface them with a microcontroller, and how components like servo motors and motor drivers operate together. We also gained practical knowledge of circuit connections, power management, and troubleshooting hardware issues such as noise and inaccurate readings.
 
-**Response:**  
+Coding: 
+We learned how to write and structure embedded code to control sensors and actuators, especially using conditional logic and real-time decision-making. Debugging was a key learning area, along with integrating multiple components in a single program and ensuring smooth communication between hardware and software.
+
+Mechanisms:  
+We understood how mechanical movement (like the servo-controlled gate) can be synchronized with sensor input. This helped us learn about motion control, positioning, and how physical actions are triggered based on system conditions.
+
+Fabrication:  
+We gained experience in physically building the prototype, including mounting sensors, aligning components properly, and creating a stable setup. We also learned the importance of neat wiring, proper placement, and structural design for reliable performance.
+
+Integration:  
+We learned how to combine electronics, coding, and mechanical systems into one complete working model. This included handling real-time data from sensors, coordinating outputs like gate movement, and ensuring that all subsystems work together efficiently to achieve the final smart parking solution.
+
+ 
 
 
 ## 18.3 Design Reflection
 
-What did you learn about:
+We learned that designing is not just about how the system looks, but how efficiently it solves the problem and integrates all components. We understood that delight comes from small user-friendly features like smooth gate operation and quick response, which improve the overall experience. Clarity was important in both circuit design and code structure, as simple and well-organized systems are easier to build, debug, and maintain. Through physical interaction, we realized how hardware placement, sensor alignment, and real-world conditions directly affect performance. Understanding grew as we connected theory with practical implementation, especially while troubleshooting errors. Iteration played a key role, as we continuously tested, identified issues, and improved our design to achieve a more reliable and functional smart parking system.
 
-- designing ,
-- delight,
-- clarity,
-- physical interaction,
-- understanding,
-- iteration?
-
-**Response:**  
+  
 
 
 ## 18.4 If You Had One More hour
 
-What would you improve next?
 
-**Response:**  
 
-` `
+If we had more time, we would improve the accuracy and reliability of the parking detection system by enhancing sensor calibration and reducing false readings. We would also refine the gate mechanism to make it faster and smoother, ensuring better real-time response. Additionally, we would work on adding an app 
+
+
 
 ---
 
