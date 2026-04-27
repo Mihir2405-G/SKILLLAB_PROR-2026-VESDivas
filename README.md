@@ -97,18 +97,12 @@ In 1–2 paragraphs, explain:
 
 ## 2.1 Experience, Not Social Problem
 
-This module does **not** require your project to solve a large social problem.
+Problem Statement: 
+Drivers waste alot of time and fuel searching for parking, lack of real time availability and efficicent space management
 
-You are allowed to build:
+We are building
+an interactive object and a playful machine by using servo motor, ultrasonic, IR sensors which will help malls, societies to manage their parking system 
 
-- toys,
-- games,
-- interactive objects,
-- playful machines,
-- kinetic artifacts,
-- humorous devices,
-- strange but delightful experiences,
-- things that are entertaining to use or watch.
 
 
 
@@ -120,9 +114,9 @@ List what inspired the project.
 
 | Source Type | Title / Link                                                        | What Inspired You                                                                         |
 | ----------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `[Video]`   | `https://www.instagram.com/reel/DW4CT7WCDry/?igsh=cXg3dzAxYmdncDBo` | `How projection mapping can be used to create interactive digital + physical experiences` |
-|             |                                                                     |                                                                                           |
-|             |                                                                     |                                                                                           |
+| `[Image]`   | `https://circuitdigest.com/sites/default/files/projectimage_mic/ai-based-smart-parking-system.jpg`                  | `Turning ordinary parking lot into interactive environment by using digital visuals and sensors ` |
+                                                                                          
+
 
 ## 3.2 Original Twist
 
@@ -130,6 +124,7 @@ What makes your project original?
 
 **Response:**  
 
+Our combination of real-time parking detection with an interactive digital experience. We are using ultrasonic, IR sensors and Servo Motor with an user friendly app, it not only shows available spaces but also helps drivers to manage parking spaces, making it more smarter and interactive than the traditional systems
 
 ---
 
