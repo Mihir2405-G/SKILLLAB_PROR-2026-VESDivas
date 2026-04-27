@@ -148,6 +148,7 @@ When leaving, the driver exits the parking slot, and the sensors detect that the
 # 5. Definition of Success
 
 ## 5.1 Definition of “Usable”
+A usable smart parking system is one that is simple, reliable, and efficient for everyday users. It should allow drivers to quickly check real-time parking availability, easily navigate to a free slot, and park without confusion or delay.
 
 
 
@@ -157,10 +158,13 @@ What is the smallest version of this project that still delivers the core experi
 
 **Response:**  
 
+A minimum usable version of our smart parking system would consist of a small prototype with a limited number of parking slots, each equipped with ultrasonic sensors to detect whether a slot is occupied or free.
 
 ## 5.3 Stretch Features
 
 What features are nice to have but not essential?
+
+Not Applicable
 
 
 ---
@@ -272,19 +276,24 @@ Add a sketch with labels showing:
 Describe the main electrical connections.
 
 **Response:**  
-`The ESP32 is connected to the motor driver (L298N) using four GPIO pins (18,19; 22,23) to control motor direction (IN1, IN2, IN3, IN4). Two PWM-capable pins (ENA and ENB; 25 and 26) are connected to control the speed of each motor.
+The Raspberry Pi Pico 2 (RP2350) serves as the central controller of the system, managing all inputs and outputs through its GPIO pins. It is powered via a USB-C connection and operates at 3.3V logic levels. The microcontroller processes signals received from sensors and accordingly controls output devices like the display and servo motor, making it the core unit of the smart parking system.
 
-The motors are connected to the output terminals of the motor driver. The motor driver is powered directly by the battery pack (higher voltage), while the ESP32 receives regulated 5V from the buck converter.
+The 7-segment display (common cathode) is connected to GPIO pins GP4 through GP10, where each pin controls one of the segments (A to G). By selectively turning these segments on or off, the Pico displays numerical information such as available parking slots. Proper current-limiting resistors are required in series with each segment to prevent damage.
 
-All components share a common ground to ensure stable operation. The projector and camera are connected to the laptop, which handles tracking and game logic separately.`
+The servo motor is interfaced with GPIO pin GP13, which provides a PWM signal to control its rotation angle. This motor is typically used to operate a barrier mechanism, such as opening and closing a parking gate. Since servos require higher current, they are usually powered using an external 5V supply rather than directly from the Pico.
 
+The ultrasonic sensors (HC-SR04) are used for distance measurement and parking space detection. Ultrasonic Sensor 1 is connected with TRIG to GP17 and ECHO to GP16, Ultrasonic Sensor 2 with TRIG to GP22 and ECHO to GP20, and Ultrasonic Sensor 3 with TRIG to GP11 and ECHO to GP12. These sensors emit ultrasonic waves and measure the reflected signals to calculate distance. As the ECHO pins output 5V, voltage dividers are required to safely step down the signal to 3.3V compatible with the Pico.
+
+The IR sensor is connected to GPIO pin GP21 and provides a digital output signal to detect the presence of an object or vehicle. It is commonly used for entry or proximity detection in the system, enabling the Pico to trigger actions like updating the display or activating the servo motor.
+
+All components in the circuit share a common ground, which is essential for proper signal referencing and stable operation. The sensors typically operate on 5V (VBUS), while the Pico logic uses 3.3V, ensuring efficient and coordinated functioning of the entire system.
 ## 8.3 Circuit Diagram
 
 Insert a hand-drawn or software-made circuit diagram.
 
 **Insert image below:**  
-`[Upload image and link here]`
-<img width="867" height="1156" alt="" src="" />
+
+<img width="867" height="1156"  src="images/circuit diagram.jpeg" />
 
 
 # 9. Power Plan
