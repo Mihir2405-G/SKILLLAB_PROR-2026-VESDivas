@@ -599,12 +599,19 @@ Add photos throughout the project.
 Suggested images:
 
 Early sketch
+
 <img src="images/final sketch.jpeg" width="400">
+
 Prototype
+
 <img src="images/project update 2.jpeg" width="400">
+
 App screenshot
+
 <img src="images/project update 3.jpeg" width="400">
-Final build.
+
+Final build
+
 <img src="images/final build.jpeg" width="400">
 
 
