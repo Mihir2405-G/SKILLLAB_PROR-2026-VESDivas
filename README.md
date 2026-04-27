@@ -135,7 +135,11 @@ Our combination of real-time parking detection with an interactive digital exper
 Describe exactly how a user will use the project.Make it a story
 **Response:**  
 
-                                                  |
+A driver enters a parking area such as a mall or society and is guided by smart parking system. At the entrance, mobile app shows the real-time availability of parking slots. The user can quickly check which slots are free. As the driver moves forward, ultrasonic sensor continuously monitor each parking space. Once the driver reaches the selected slot the ultrasonic sensor detects the car and confirming the slot is reserved or occupied. After parking, the system logs the vehicle’s entry and keeps track of the occupied space. 
+
+When leaving, the driver exits the parking slot, and the sensors detect that the space is now free. The system instantly updates the availability, making the slot visible to the next user.
+
+
 
 
 
