@@ -412,13 +412,22 @@ Write how your team will work together.
 
 Include:
 
-- how tasks are divided,
-- how decisions are made,
-- how progress will be checked,
-- what happens if a task is delayed,
-- how documentation will be maintained.
+How tasks are divided
+We divided the task by first knowing the strength of each team memeber and alloting the respective work along with their strength
 
-**Response:**  
+How decisions are made
+We collectviely discuss the new solution or feature and vote whether we can do it or not
+
+How progress will be checked
+We update the log book hourly or whenever we do a change or improve our project
+
+What happens if a task is delayed
+If the task is delayed firstly we sit together and find the issue and try to solve it, and increase the workload on that particular thing, for example if our hardware got delayed then 2 person start working on that part of the project
+
+How documentation will be maintained.
+Every time something changes,or we buy something or happens we update that on the designated section under the github repo and every couple of hours we upload the photo or our current progress
+
+
 
 
 ## 12.2 Task Breakdown
@@ -489,20 +498,20 @@ Expected outcomes:
 
 Expected outcomes:
 
-- [ ] Technical bugs reduced
+- [x] Technical bugs reduced
 - [x] Playtesting completed
-- [ ] Improvements made
-- [ ] Documentation completed
-- [ ] Final build ready
+- [x] Improvements made
+- [x] Documentation completed
+- [x] Final build ready
 
 ## 13.2  Update Log
 
-| Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
+| Hours   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
-| Week 1 | `[Idea Finalization]` | `[Idea Finalized]`| `[NA]`       | `[Connections]`|
-| Week 2 | `[Hardware FInalization]` | `[Hardware Connected]`      | `[Servo Motor had to change]` | `[Software Implement]` |
-| Week 3 | `[Software Finalization]]` | `[Uploading code on microcontroller and making web app]`         | `[Had to change to code and reduce the number of ultrasonic senors]` | `[Testing and Mounting]` |
-| Week 4 | `[Testing and FInalization]` | `[Mounted the hardware on our cardboard and changed the code]`         | `[]` | `[NA]` |
+| Hour 1 | `[Idea Finalization]` | `[Idea Finalized]`| `[NA]`       | `[Connections]`|
+| Hour 2 | `[Hardware FInalization]` | `[Hardware Connected]`      | `[Servo Motor had to change]` | `[Software Implement]` |
+| Hour 3 | `[Software Finalization]]` | `[Uploading code on microcontroller and making web app]`         | `[Had to change to code and reduce the number of ultrasonic senors]` | `[Testing and Mounting]` |
+| Hour 4 | `[Testing and FInalization]` | `[Mounted the hardware on our cardboard and changed the code]`         | `[]` | `[NA]` |
 
 Update 1: Basic Connection started with fabrication
 
@@ -521,6 +530,8 @@ Update 3: Started with the App development
           Had to change our original servo motor as it got short circuited and the gate was not working
 
 <img src="images/project update 3.jpeg" width="400"> <img src="images/project update 3b.jpeg" width="400">
+
+Update 4: We completed with our final working build,
 
 
 ---
