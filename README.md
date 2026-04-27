@@ -557,14 +557,16 @@ The biggest uncertainty in our smart parking project is the accuracy and reliabi
 
 | Date          | Problem Found                         | Type         | What You Tried                                | Result               | Next Action                                    |
 | ------------- | ------------------------------------- | ------------ | --------------------------------------------- | -------------------- | ---------------------------------------------- |
-| `18th April`  | `Car not balancing properly`          | `Mechanical` | `Add low-friction caster support to one side` | `Worked`             | `improve caster structure`                  |
+| `27th April`  | `Gate not opening`          | `Mechanica` | `changed the servo motor` | `Worked`             | `Check ultrasonic senors`     |
+| `27th April`  | `7-Segment Display Not Working`          | `Technical` | `Changed the code for ultrasonic sensor and fix the connection` | `Worked`             | `NA`     |
+
 
 
 ## 15.3 Playtesting Notes
 
 | Tester      | What They Did                        | What Confused Them                    | What They Enjoyed                         | What You Will Change                          |
 | ----------- | ------------------------------------ | ------------------------------------- | ----------------------------------------- | --------------------------------------------- |
-| `Gopal` | `Tried navigating through obstacles` | `Some obstacles ewren't clear enough` | `Liked projection + real car interaction` | `Add a slight red highlight around obstacles` |
+| `Narendra` | `Checked the working of Gate and parking slot` | `The gate wasnt opening even when the car was near the sensor` | `NA` | `Change the location of IR sensor near the gate` |
 
 
 ---
@@ -576,31 +578,19 @@ The biggest uncertainty in our smart parking project is the accuracy and reliabi
 Describe how the project was physically made.
 
 Include:
+Cutting
+We used a cardboard and cut it down as required for our project using the dimensions and scissors, and put a black chart paper on it 
 
-- cutting,
-- 3D printing,
-- assembly,
-- fastening,
-- wiring,
-- finishing,
-- revisions.
+Assembly
+We assembled the whole circuit on the breadboard and mounted it on the carboard alongwith the neccessary sensors with the help of hot glue gun
 
-**Response:**  
-`The fabrication process involved designing, manufacturing, assembling, and refining both the physical structure and electronic integration of the system.`
+Wiring
+Connecected the microcontroller to the sensors and the servo motor with the help of jumper wires 
 
-`Design (CAD Modeling):
-The initial model was created using CAD software, where components were designed based on the actual dimensions of the electronic parts. This ensured accurate fitting and minimized errors during assembly.
-Cutting (Laser Cutting):
-The designed parts were fabricated using laser cutting techniques. Sheets were cut precisely according to the CAD model to create the structural base and mounts for components.`
+Finishing
+Added some finishing touching to the board by marking desginated parking areas and road markings
 
-`Components were fixed using adhesives and mechanical supports. Certain parts were intentionally kept modular (not permanently fixed) to allow easy replacement and modification of electronics.
-Surface Finishing:
-Some parts were sanded to smooth rough edges after cutting. Sawdust mixed with adhesive was used to fill gaps and uneven edges, improving structural finish. The final structure was then painted for better aesthetics and durability.`
 
-`Environment Setup (Dark Room Fabrication):
-To enhance projection visibility, a controlled dark environment was created using Z-boards, paper sheets, and bedsheets. This minimized external light interference and improved projection clarity.
-Revisions and Iterations:
-Multiple adjustments were made throughout the process, including refining alignment, improving structural stability, repositioning components, and optimizing the interaction between the physical car and projected environment.`
 
 ## 16.2 Build Photos
 
@@ -608,13 +598,15 @@ Add photos throughout the project.
 
 Suggested images:
 
-- early sketch,
-- prototype,
-- electronics testing,
-- mechanism test,
-- app screenshot,
-- final build.
-- <img width="960" height="1280" alt="WhatsApp Image 2026-04-24 at 9 46 02 AM (1)" src="https://github.com/user-attachments/assets/74baa570-5770-483e-be6d-d2f03386e37c" />
+Early sketch
+<img src="images/final sketch.jpeg" width="400">
+Prototype
+<img src="images/project update 2.jpeg" width="400">
+App screenshot
+<img src="images/project update 3.jpeg" width="400">
+Final build.
+<img src="images/final build.jpeg" width="400">
+
 
 
 
