@@ -74,7 +74,7 @@ By the final review, this README should clearly show:
 
 `"ParkEase"`
 
-<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/c64bfbd4-b3b7-43d9-83ad-c203a5aa11bc" />
+<img width="1600" height="1131" alt="image" src="images/projectphoto.png" />
 
 ## 1.4 One-Line Pitch
 
