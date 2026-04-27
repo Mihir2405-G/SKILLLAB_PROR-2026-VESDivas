@@ -79,6 +79,9 @@ By the final review, this README should clearly show:
 PPT Slide
 [Download Presentation](./docs/Smart-Parking-System-using-IoT.pdf_20260427_165550_0000.pdf)
 
+YT Video
+[Watch Demo Video](https://youtube.com/shorts/mWcIDCzxfRM?si=WxrZ2c0jccmO1hSr)
+
 ## 1.4 One-Line Pitch
 
 `A smart, real-time parking solution that seamlessly guides users to available spaces, making urban parking efficient, hassle-free, and accessible from the comfort of home.`
