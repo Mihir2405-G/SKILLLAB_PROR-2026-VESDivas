@@ -550,13 +550,14 @@ The biggest uncertainty in our smart parking project is the accuracy and reliabi
 
 | What Needs Testing     | How You Will Test It                                                                 | Success Condition                                                                                    |
 | ---------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| `[Gate Movement]`    | `[Check if the gate moves when the car approaches the gate]`                                              | `[IR sensor detects the car and sends signal to servo motor to move the gate]`                                                   |
-                       |
+| `[Gate Movement]`    | `[Check if the gate moves when the car approaches the gate]`                                              | `[IR sensor detects the car and sends signal to servo motor to move the gate]` |
+| `[Parking slot]`    | `[Check if the 7-segment display updates when the car reaches or leaves the parking slot]`                                              | `[Ultrasonic sensor detects the car at the spot and updates the 7-segment display]` |
+                       
 ## 15.2 Testing and Debugging Log
 
 | Date          | Problem Found                         | Type         | What You Tried                                | Result               | Next Action                                    |
 | ------------- | ------------------------------------- | ------------ | --------------------------------------------- | -------------------- | ---------------------------------------------- |
-| `18th April`  | `Car not balancing properly`          | `Mechanical` | `Add low-friction caster support to one side` | `Worked`             | `improve caster structure`                     |
+| `18th April`  | `Car not balancing properly`          | `Mechanical` | `Add low-friction caster support to one side` | `Worked`             | `improve caster structure`                  |
 
 
 ## 15.3 Playtesting Notes
