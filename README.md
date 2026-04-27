@@ -426,7 +426,7 @@ Include:
 | Task ID | Task                    | Owner    | Estimated Hours | Deadline     | Dependency | Status |
 | ------- | ----------------------- | -------- | ---------------:| ------------ | ---------- | ------ |
 | T1      | `[Finalize concept]`    | `[All]`  | `1hr`           | `27th April` | `None`     | `Done` |
-| T2      | `[Connections]`         | `[Narendra]` | `2hr`       | `27th April` | `None`     | `Working` |
+| T2      | `[Connections]`         | `[Narendra]` | `2hr`       | `27th April` | `None`     | `Done` |
 | T3      | `[Fabrication]`         | `[Vedant]` | `2hr`         | `27th April` | `None`     | `Done` |
 | T4      | `[Documentation]`       | `[Mihir]` | `6hr`          | `27th April` | `None`     | `Working` |
 | T5      | `[App Development]`     | `[Anuj]`  | `1hr`          | `27th April` | `None`     | `Working` |
@@ -460,7 +460,7 @@ Expected outcomes:
 - [x] Idea finalized
 - [x] Core interaction decided
 - [x] Sketches made
-- [x] BOM completed
+- [ ] BOM completed
 - [x] Purchase needs identified
 - [ ] Key uncertainty identified
 - [x] Basic feasibility tested
@@ -471,7 +471,7 @@ Expected outcomes:
 
 - [x] Electronics tests completed
 - [ ] CAD / structure planning completed
-- [ ] App UI started if needed
+- [x] App UI started if needed
 - [x] Mechanical concept tested
 - [x] Main subsystems partially working
 
@@ -483,26 +483,26 @@ Expected outcomes:
 - [x] Electronics integrated
 - [x] Code connected to hardware
 - [ ] App connected if required
-- [x] First playable version exists
+- [ ] First playable version exists
 
 ### Bi Hour 4 — Refine and Finish
 
 Expected outcomes:
 
-- [x] Technical bugs reduced
+- [ ] Technical bugs reduced
 - [x] Playtesting completed
-- [x] Improvements made
-- [x] Documentation completed
-- [x] Final build ready
+- [ ] Improvements made
+- [ ] Documentation completed
+- [ ] Final build ready
 
 ## 13.2  Update Log
 
 | Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
 | Week 1 | `[Idea Finalization]` | `[Idea Finalized]`| `[NA]`       | `[Connections]`|
-| Week 2 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
-| Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Week 2 | `[Hardware FInalization]` | `[Hardware Connected]`      | `[Servo Motor had to change]` | `[Software Implement]` |
+| Week 3 | `[Software Finalization]]` | `[Uploading code on microcontroller and making web app]`         | `[Had to change to code and reduce the number of ultrasonic senors]` | `[Testing and Mounting]` |
+| Week 4 | `[Testing and FInalization]` | `[Mounted the hardware on our cardboard and changed the code]`         | `[]` | `[NA]` |
 
 Update 1: Basic Connection started with fabrication
 
