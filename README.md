@@ -64,9 +64,9 @@ By the final review, this README should clearly show:
 | Name           | Primary Role                    | Secondary Role | Strengths Brought to the Project |
 | -------------- | ------------------------------- | -------------- | -------------------------------- |
 | `Narendra Bhujbal` | `[Electronics]`             | `[Coding / App]`| `Material Handeling, Software `|
-| `Anuj Gujar`   | `[App]`                         | `[Electronics]]`| `App Dev, Hardware`    |
+| `Anuj Gujar`   | `[App]`                         | `[Electronics/Fabrication]`| `App Dev, Hardware`    |
 | `Mihir Gupta`  | `[Documentation]`               | `[App]`         | `Documenting, App Dev`    |
-| `Vedant Jathar`| `[Electronics]`                 | `[Documentation]`| `Material Handling, Hardware`    |
+| `Vedant Jathar`| `[Electronics/Fabrication]`     | `[Documentation]`| `Material Handling, Hardware`    |
 
 <img src="images/groupphoto.jpeg" width="400">
 
@@ -434,17 +434,25 @@ Include:
 
 | Task ID | Task                    | Owner    | Estimated Hours | Deadline     | Dependency | Status |
 | ------- | ----------------------- | -------- | ---------------:| ------------ | ---------- | ------ |
-| T1      | `[Finalize concept]`    | `[Both]` | `2`             | `1st April`  | `None`     | `Done` |
+| T1      | `[Finalize concept]`    | `[All]`  | `1hr`           | `27th April` | `None`     | `Done` |
+| T2      | `[Connections]`         | `[Narendra]` | `2hr`       | `27th April` | `None`     | `Working` |
+| T3      | `[Fabrication]`         | `[Vedant]` | `2hr`         | `27th April` | `None`     | `Working` |
+| T4      | `[Documentation]`       | `[Mihir]` | `hr`           | `27th April` | `None`     | `Working` |
+| T5      | `[App Development]`     | `[Anuj]`  | `1hr`          | `27th April` | `None`     | `Working` |
+
+
+
+
 
 
 ## 12.3 Responsibility Split
 
 | Area                 | Main Owner | Support Owner |
 | -------------------- | ---------- | ------------- |
-| Concept              | `[Gopal]`  | `[Kader]`    |
-| Electronics          | `[]`       | `[]`     |
-| Coding               | `[]`       | `[]`     |
-| Mechanical build     | `[]`       | `[]`    |
+| Concept              | `[Anuj]`   | `[Kader]`     |
+| Electronics          | `[Narendra]`| `[]`         |
+| Coding               | `[Anuj]`    | `[Mihir]`    |
+| Mechanical build     | `[Vedant]`  | `[]`    |
 | Testing              | `[]`       | `[]`    |
 | Documentation        | `[]`       | `[]`     |
 
@@ -500,10 +508,13 @@ Expected outcomes:
 
 | Week   | Planned Goal   | What Actually Happened | What Changed   | Next Steps     |
 | ------ | -------------- | ---------------------- | -------------- | -------------- |
-| Week 1 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+| Week 1 | `[Idea Finalization]` | `[Idea Finalized]`| `[NA]`       | `[Connections]`|
 | Week 2 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 3 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 | Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
+
+Update 1
+<img src="images/project update 1a.jpeg" width="400"> <img src="images/project update 1b.jpeg" width="400">
 
 ---
 
