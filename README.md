@@ -68,6 +68,8 @@ By the final review, this README should clearly show:
 | `Mihir Gupta`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
 | `Vedant Jathar`  | `[Electronics / Fabrication]`   | `[Coding]`     | `Material Handling, Hardware`    |
 
+<img src="images/starting of project.jpeg" width="400">
+
 ## 1.3 Project Title
 
 `"Project Project"`
