@@ -735,7 +735,7 @@ Before submission, confirm that:
 - [x] Playtesting notes are included
 - [x] Build photos are included
 - [x] Final reflection is written
-<img width="1131" height="1600" alt="image" src="" />
+<img width="1131" height="1600" alt="image" src="images/final photo with project.jpeg" />
 
 ---
 
