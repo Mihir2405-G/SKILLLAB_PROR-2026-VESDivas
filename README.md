@@ -514,6 +514,8 @@ Expected outcomes:
 | Week 4 | `[Write here]` | `[Write here]`         | `[Write here]` | `[Write here]` |
 
 Update 1
+
+
 <img src="images/project update 1a.jpeg" width="400"> <img src="images/project update 1b.jpeg" width="400">
 
 ---
